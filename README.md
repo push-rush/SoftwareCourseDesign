@@ -45,3 +45,7 @@
 * 启动前端
     > 在前端目录中运行 
     ``` npm start ```
+
+### Errors Process
+1. Qes: npm install或cnpm install报错Error: certificate has expired
+    > S: ``` npm config set strict-ssl false ```
